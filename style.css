@@ -1,0 +1,65 @@
+* {
+    font-family:Helvetica;
+    box-sizing: border-box;
+    }
+    
+    .pgi{
+        text-align: center;
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+        font-size: 25px;
+        flex-direction: column;
+        font-style: italic; 
+        
+    }
+    
+    body{
+        padding: none;
+        background-color: pink;
+        margin: 1rem;
+        
+    }
+    
+    
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 300px;
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 20px;
+        font-style: italic; 
+        
+    }
+    label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+    input, select, textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1.1rem;
+    }
+    button{
+        font-size: 30px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, #f19ed0, rgb(34, 25, 31));
+        margin: none;
+       
+    }
+    
+    h2{
+        display: flex;
+        font-weight: 600;
+        font-size: 35px;
+        font-style: italic; 
+        
+    }
